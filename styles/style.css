@@ -126,8 +126,9 @@
 
 .cover__description-text {
   display: flex;
-  justify-content: start;
-  padding: 12px 0px 62px 78px;
+  justify-content: center;
+  padding: 12px 79px 62px 78px;
+  white-space: nowrap;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -283,14 +284,14 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr 150px 1fr;
+  grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
   margin: 180px 50px 88px 50px;
 }
 
 .footer__address {
   display: flex;
-  flex-grow: 1;  
+  flex-grow: 1;
 }
 
 .footer__menu {
