@@ -126,8 +126,8 @@
 
 .cover__description-text {
   display: flex;
-  justify-content: center;
-  padding: 12px 79px 62px 78px;
+  justify-content: start;
+  padding: 12px 0px 62px 78px;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
