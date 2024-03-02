@@ -290,12 +290,12 @@
 
 .footer__address {
   display: flex;
-  flex-grow: 1;
-  white-space: nowrap;
+  flex-grow: 1;  
 }
 
 .footer__menu {
   text-align: center;
+  white-space: nowrap;
 }
 
 .footer__menu-list {
