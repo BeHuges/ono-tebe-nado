@@ -145,7 +145,7 @@
   border: 1px solid transparent;
   border-color: currentColor;
   text-decoration: none;
-  font-family: inherit;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   background-color: transparent;
   color: #ffffff;
@@ -291,7 +291,6 @@
 
 .footer__address {
   display: flex;
-  flex-grow: 1;
 }
 
 .footer__menu {
@@ -320,7 +319,6 @@
   flex-direction: row;
   justify-content: end;
   gap: 48px;
-  flex-grow: 1;
 }
 
 .footer__social-list-item {
