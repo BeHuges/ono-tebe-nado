@@ -282,14 +282,15 @@
 }
 
 .footer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 150px 1fr;
+  justify-content: space-between;
   margin: 180px 50px 88px 50px;
 }
 
 .footer__address {
   display: flex;
   flex-grow: 1;
-  flex-basis: 425px;
 }
 
 .footer__menu {
@@ -318,7 +319,6 @@
   justify-content: end;
   gap: 48px;
   flex-grow: 1;
-  flex-basis: 425px;
 }
 
 .footer__social-list-item {
