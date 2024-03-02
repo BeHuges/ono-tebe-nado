@@ -291,6 +291,7 @@
 .footer__address {
   display: flex;
   flex-grow: 1;
+  white-space: nowrap;
 }
 
 .footer__menu {
